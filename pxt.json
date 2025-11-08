@@ -1,14 +1,14 @@
 {
     "name": "MMM-tek Addons",
-    "description": "",
+    "description": "Addons for Make Code Arcade",
     "dependencies": {
         "device": "*"
     },
     "files": [
         "main.blocks",
         "README.md",
-        "menu.ts",
-        "main.ts"
+        "main.ts",
+        "mtek.ts"
     ],
     "testFiles": [
         "test.ts"

@@ -17,10 +17,10 @@ namespace Mtek {
         pauseUntil(() => !(controller.anyButton.isPressed()))
         game.onUpdate(() => {
             const currentState = controller.A.isPressed();
-                if (currentState) {
-                    game.popScene();
-                    controller._setUserEventsEnabled(true);
-                }
+            if (currentState) {
+                game.popScene();
+                controller._setUserEventsEnabled(true);
+            }
         })
     }
     //%block
