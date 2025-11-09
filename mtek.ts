@@ -8,6 +8,11 @@ namespace Mtek {
     export function addmenuoption(name: string, image: Image, handler: () => void): void {
         scene.systemMenu.addEntry(() => name, handler, image);
     }
+    //% block
+    //%group="System Menu"
+    export function closeMenu(){
+        scene.systemMenu.closeMenu();
+    }
     //%block
     //%group="Pause"
     export function pauseGameA() {
